@@ -123,7 +123,7 @@ def slack_notifier(count_df):
                 }
             ]
         }
-    webhook_url = 'https://hooks.slack.com/services/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'  # Slack Channel Web Hook
+    webhook_url = ''  # Slack Channel Web Hook
     slack_data = _message 
     slack_data["channel"] = 'cloudwatch_alert' # Channel name
     
